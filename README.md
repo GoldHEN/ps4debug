@@ -36,7 +36,8 @@ Please report any issues to the [GoldHEN Discord](https://discord.gg/pR5NTEVBGt)
 
 ### Credits
 
-Coded by [golden](https://github.com/jogolden)
+Coded by [golden](https://github.com/jogolden).
+
 Updated by [ctn123](https://github.com/ctn123) & [SiSTRo](https://github.com/SiSTR0).
 
 Special thanks to:
