@@ -1,6 +1,21 @@
-
 # ps4debug
+```
+                   _____     .___    ___.
+   ______  ______ /  |  |  __| _/____\_ |__  __ __  ____
+   \____ \/  ___//   |  |_/ __ |/ __ \| __ \|  |  \/ ___\
+   |  |_> >___ \/    ^   / /_/ \  ___/| \_\ \  |  / /_/  >
+   |   __/____  >____   |\____ |\___  >___  /____/\___  /
+   |__|       \/     |__|     \/    \/    \/     /_____/
+
+                   Coded by golden.
+                   Updated by Ctn & SiSTRo.
+```
+
 This is a debugger for the PlayStation 4. Yes thats right! Look around and you will find some very useful tools online or on the PS4 Source Discord channel. Anything is possible, except kernel mode debugging, which I decided to leave out.
+
+Latest version: `v1.1.17`
+
+Please report any issues to the [GoldHEN Discord](https://discord.gg/pR5NTEVBGt).
 
 ### Quickstart Guide
 I am going to try to give you a little rundown on how to use ps4debug....
@@ -15,24 +30,15 @@ I am going to try to give you a little rundown on how to use ps4debug....
 ## Features
 
 - Everything you know and love about ps4debug including:
-  - Firmware supported:
+  - Firmware supported: (*) means untested
     - `5.05`, `5.07`,
     - `6.71`, `6.72`,
     - `7.02`, `7.50`, `7.51`, `7.55`,
-    - `9.00`, `9.60` (looking for tester),
-    - `10.00`, `10.01`,
+    - `9.00`, `9.60`,
+    - `10.00`, `10.01`, `10.50`, `10.51`, `10.70`(*), `10.71`(*),
     - `11.00`.
   - Rest mode support.
   - Console scanner.
-
-Latest version: `v1.1.16`
-
-### Changelog:
-- v1.1.16
-  - Added support for `9.00`, `9.60`, `10.00`, `10.01` and `11.00`
-  - Fixed attach/detach issue when game exits during a debug session.
-
-Please report any issues to the [GoldHEN Discord](https://discord.gg/pR5NTEVBGt).
 
 ### Credits
 
@@ -41,7 +47,7 @@ Coded by [golden](https://github.com/jogolden), updated by [ctn123](https://gith
 Special thanks to:
 - [Kameleon](https://github.com/kmeps4)
 
-Greeting to other devs:
+Greeting to other devs: (alphabetical order)
 - [2much4u](https://github.com/2much4u)
 - [Al-Azif](https://github.com/Al-Azif)
 - [berkayylmao](https://github.com/berkayylmao)
@@ -58,9 +64,22 @@ Greeting to other devs:
 - [zecoxao](https://twitter.com/notzecoxao)
 - [Znullptr](https://github.com/dmiller423)
 
-Greeting to QA/Testers:
+Greeting to QA/Testers: (alphabetical order)
+- [Big_Wadger](https://twitter.com/big_wadger)
+- [Echo Stretch](https://twitter.com/StretchEcho)
 - [Hejran7](https://www.youtube.com/@BabaAlloush)
 - [Pharaoh2k](https://github.com/Pharaoh2k)
-- [Echo Stretch](https://twitter.com/StretchEcho)
-- [Big_Wadger](https://twitter.com/big_wadger)
+
+### Changelog:
+- v1.1.16
+  - Added support for `9.00`, `9.60`, `10.00`, `10.01` and `11.00`
+  - Fixed attach/detach issue when game exits during a debug session.
+- v1.1.17
+  - Improved support for debugging multi-threaded processes.
+  - Improved allocations for cheats.
+  - General stability improvements.
+  - General performance improvements.
+  - Added support for 10.50, 10.51, 10.70 and 10.71
+  - Fixed loading with latest GoldHEN.
+  - Implemented hardware breakpoints.
 
