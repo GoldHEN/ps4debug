@@ -40,6 +40,20 @@ I am going to try to give you a little rundown on how to use ps4debug....
   - Rest mode support.
   - Console scanner.
 
+## Current status with tools
+
+### Reaper Studio - Debugger, Trainer creator.
+- Working.
+
+### MultiTrainer II - Cheat/Trainer Loader
+- Working
+
+### Original Reaper - Debugger, Trainer creater.
+- Working
+
+### PS4 Cheater - Memory scanner/viewer.
+- Working
+
 ### Credits
 
 Coded by [golden](https://github.com/jogolden), updated by [ctn123](https://github.com/ctn123) & [SiSTRo](https://github.com/SiSTR0).
